@@ -4,30 +4,50 @@ body {
   box-sizing: border-box;
 }
 
-#nav-bar{
-  height: 20%;
-  width: 100%;
-  background-color: rgba(3, 121, 113, 1);
-}
 
-#nav-bar h1{
-  color: rgba(2, 52, 54, 1);
-  padding: 25px;
-  font-family: "Courier New";
-}
 
 #landing{
   width: 100%;
-  height: 75%;
+  height: 100%;
   background-color: rgba(0, 191, 179, 1);
   background-image: url("https://bit.ly/36f8GZL");
   opacity: .5;
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
+
 }
 
-#footer{
-  height: 10%;
+#logoDid {
+  margin-top: 50px;
+  border-radius: 100%;
+}
+
+#landing h1{
+  color: white;
+  font-family: "Courier New";
+  padding: 50px;
+}
+#cont{
+  text-align: center;
   width: 100%;
-  background-color: rgba(3, 121, 113, 1);
+  height: 25%;
+}
+
+.project-cont{
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+  background-color: white;
+  margin: 1%;
+  float: left;
+}
+.project-cont img{
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid black;
+  margin-bottom: 35px;
+
 }
